@@ -34,3 +34,37 @@ The EEG dataset is stored separately in the shared Google Drive and is not inclu
 - [ ] Implement CNN
 - [ ] Train CNN
 - [ ] Compare baseline and CNN
+
+## Team responsibilities
+
+### Hildur – Data & EDA
+- Understand the provided EEG starter code
+- Set up data loading
+- Verify train/validation/test splits
+- Explore age distribution and dataset statistics
+- Visualize example EEG recordings
+- Investigate channels and potential artifacts
+- Maintain `notebooks/eda.ipynb`
+
+### Arnar Gauti – Feature-based baseline
+- Extract simple EEG features
+- Hjorth parameters
+- Spectral/band-power features
+- Train linear regression baseline
+- Evaluate using MAE/RMSE
+- Maintain `notebooks/baseline.ipynb`
+
+### Pétur – CNN
+- Set up EEG segment loading
+- Implement CNN
+- Train CNN from scratch
+- Track training/validation performance
+- Evaluate CNN
+- Maintain `notebooks/cnn.ipynb`
+
+### Shared
+- Review each other's code
+- Decide final experimental setup
+- Compare baseline and CNN
+- Analyze results
+- Prepare final report
